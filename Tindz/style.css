@@ -1,0 +1,243 @@
+body{
+
+    font-size: 13px;
+    width: 1519px;
+    margin: 0px auto; 
+    background: #c0e8df;
+    font-family: "Poppins";
+ }
+ /*------------------------------------------------------------------style all------------------------------------------------------------------*/
+ html{
+     scroll-behavior: smooth;
+ }
+ /*------------------------------------------------------------------header------------------------------------------------------------------*/
+ header{
+     width: 100px;
+     height: auto;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     padding: 5px 0px;
+ }
+ nav{
+     height: 30px;
+ }
+ nav .menu ul{
+     list-style: none;
+ }
+ nav .menu ul  li {
+     float: left;
+     list-style: none;    
+ }
+ nav .menu ul  li a {
+     color:black;
+     font-size: 18px;
+     text-decoration: tomato;
+     line-height: 35px;
+     padding: 0px 20px 0px 20px;
+     display: block;  
+ }
+ nav .menu ul  li  a:hover {
+     background:#f0f0f0;
+     transition: ease-in 0.5s;
+ }
+ /*------------------------------------------------------------------banner------------------------------------------------------------------*/
+ .videobanner {
+     position: relative;   
+     background: url(Video/one.mp4);
+     background-attachment: fixed;
+ }
+
+
+ 
+ /*------------------------------------------------------------------table-----------------------------------------------------------------*/
+ .table{
+     height: 50px;
+     background: #c0e8df;
+ }
+ .table ul{
+     list-style: none;
+ }
+ .table ul li{
+     float: left;
+     line-height: 50px;
+     padding: 0px 120px 0px 145px;
+     position: relative;
+     border-bottom: 2px solid #CCc;
+ }
+ .table ul li a {
+     color: black;
+     font-size: 20px;
+     text-decoration: auto;
+     float: right;
+     line-height: 60px;
+     display: block; 
+ }
+ .table ul  :hover{
+     background: #f0f0f0;
+     transition: ease-in 0.5s;
+ }
+ /*------------------------------------------------------------------mmain--------------------------------------------------------------*/
+ /*------------------------------------------------------------------one--------------------------------------------------------------*/
+ .main .one ul{
+     margin: 0px;
+     padding: 0px;
+     margin-left: 60px;  
+ }   
+ .main .one ul li{
+     border-bottom: 10px solid #CCc;
+     list-style: none;
+     background: #f0f0f0;
+     clear: left;
+     margin-bottom: 30px;
+     width: 1400px;
+     height: 252px;     
+ }
+ .main .one ul li h3{
+     margin-left: 100px;
+     margin-top: 20px;
+ }
+ .main .one ul li h2{
+     margin-left: 260px;
+     margin-top: 30px;
+ }
+ .main .one ul li img {
+     float: right;
+     margin-left: 10px;
+     margin-bottom: 20px; 
+ }
+ .main .one{
+     margin-top: 25px;
+ }
+ .main .one{
+     margin-bottom: 20px;
+ }
+ /*------------------------------------------------------------------two--------------------------------------------------------------*/
+ .main .two ul{
+     margin: 0px;
+     padding: 0px;
+     margin-left: 60px;   
+ }   
+ .main .two ul li{
+     border-bottom: 10px solid #CCc;
+     list-style: none;
+     background: #f0f0f0;
+     clear: left;
+     margin-bottom: 30px;
+     width: 1400px;
+     height: 252px;    
+ }
+ .main .two ul li h3{
+     margin-left: 100px;
+     margin-top: 20px;
+ }
+ .main .two ul li h2{
+     margin-left: 260px;
+     margin-top: 30px;
+ }
+ .main .two ul li img {
+     float: right;
+     margin-left: 10px;
+     margin-bottom: 20px; 
+ }
+ .main .two{
+     margin-top: 25px;
+ }
+ .main .two{
+     margin-bottom: 20px;
+ }
+ /*------------------------------------------------------------------three--------------------------------------------------------------*/
+ .three{
+     margin-top: 200px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     font-size: 18px;
+ }
+ .three{
+     max-width: 1170px;
+     margin: auto;
+ }
+ .threeone{
+     margin-top: 90px;
+     display: flex;
+     font-size: 18px;
+ }
+ .item {
+     width: calc(100%/4);
+     text-align: center;
+     padding-bottom: 20px; 
+ }
+ .three ul {
+     background:#aebaf1;  
+     width: 1500px;
+     height: 400px;
+ } 
+ .three .threetwo{
+     margin-top: 50px;
+     margin-left: 480px;
+ }
+ /*------------------------------------------------------------------for--------------------------------------------------------------*/
+ .for{
+     list-style: none;
+ }
+ .for .forone ul{
+     margin: 0px;
+     padding: 0px;
+ }
+ .for .forone ul li h2{
+     margin-left: 660px;
+     font-size: 25px;
+ }
+ .for .forone ul li{
+     margin: 0px auto;
+     float: left;
+ }
+ .for .forone ul li img{
+     margin-left: 50px;
+ }
+ .for{
+     margin-bottom: 50px;
+ }
+ /*------------------------------------------------------------------container footer-----------------------------------------------------------*/
+ .container {
+     max-width: 1170px;
+     margin: auto;
+ }
+ .abc{
+     margin-top: 200px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     font-size: 18px;
+ }
+ .footer {  
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     padding: 20px 0 0;
+ }
+ .footer::before {
+     position: absolute;
+     content: "";
+     display: block;
+     width: 100%;
+     height: 60%;
+     left: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.185);  
+ }
+ .footer-item {
+     width: calc(100%/3);
+     text-align: center;
+     padding-bottom: 10px; 
+ }
+ .copyright {
+     text-align: center;
+     width: 100%;
+     padding: 10px 0 10px;
+ }
+ .abc1{
+     margin-top: 30px;
+ }
